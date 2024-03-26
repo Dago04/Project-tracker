@@ -38,6 +38,11 @@ body {
   background-color: var(--bgColor);
   color: var(--textColor);
   min-width: 325px;
+  /* background-image: url("./assets/images/illustration-devices.svg");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: 50% 20%;
+  z-index: -1; */
 }
 
 ul {
@@ -47,3 +52,10 @@ ul {
 a {
   text-decoration: none;
 }
+
+/* @media (min-width: 625px) {
+  body {
+    background-position: 120% 50%;
+    background-size: 50%;
+  }
+} */

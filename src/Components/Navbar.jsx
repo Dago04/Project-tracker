@@ -7,8 +7,6 @@ import "../Styles/Navbar.css";
 export default function Navbar() {
     const [openMenu, setOpenMenu] = useState(false);
 
-
-
     function handleOpenMenu() {
         setOpenMenu(!openMenu);
     }

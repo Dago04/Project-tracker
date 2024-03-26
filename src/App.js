@@ -5,7 +5,11 @@ export default function App() {
     return (
         <>
             <Navbar />
-            <Hero />
+            <section>
+                <div className='background-image'>
+                </div>
+                <Hero />
+            </section>
         </>
     )
 }
