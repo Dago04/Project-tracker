@@ -13,9 +13,13 @@ export default function Navbar() {
 
     return (
         <header>
+
             <Menu onOpenMenu={handleOpenMenu} openMenu={openMenu} />
-            {openMenu && <NavMenu className="hamburger-menu" />}
-        </header>
+
+            <div className="modal">
+                {openMenu && <NavMenu className="hamburger-menu" />}
+            </div>
+        </header >
     );
 }
 

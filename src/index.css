@@ -24,6 +24,9 @@
   --z-tooltip: 10;
   --z-fixed: 100;
 }
+button {
+  font-family: inherit;
+}
 img {
   max-width: 100%;
   display: block;
@@ -37,12 +40,8 @@ body {
   margin: 0;
   background-color: var(--bgColor);
   color: var(--textColor);
-  min-width: 325px;
-  /* background-image: url("./assets/images/illustration-devices.svg");
-  background-repeat: no-repeat;
-  background-size: 80%;
-  background-position: 50% 20%;
-  z-index: -1; */
+  min-width: 375px;
+  line-height: 1.1;
 }
 
 ul {
@@ -52,10 +51,3 @@ ul {
 a {
   text-decoration: none;
 }
-
-/* @media (min-width: 625px) {
-  body {
-    background-position: 120% 50%;
-    background-size: 50%;
-  }
-} */

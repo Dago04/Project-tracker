@@ -2,10 +2,6 @@ header {
   color: var(--textColor);
   font-family: var(--second-font);
   font-weight: 600;
-  padding: 3rem;
-  padding-bottom: 1rem;
-  position: relative;
-  z-index: var(--z-fixed);
 }
 
 /* Navbar */
@@ -14,6 +10,10 @@ header {
   justify-content: space-between;
   align-items: center;
   max-width: 768px;
+  padding: 3rem;
+  padding-bottom: 1rem;
+  position: relative;
+  z-index: var(--z-fixed);
 }
 .navbar img {
   cursor: pointer;
@@ -25,12 +25,19 @@ header {
 
 /* Hamburger Menu */
 
+.modal {
+  width: 100vw;
+  min-width: 375px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
 .hamburger-menu {
   box-shadow: 2px 2px 5px 0px var(--grayish-blue);
   padding-block: 1rem;
   padding-inline: 3rem;
   width: 100%;
-  max-width: 420px;
+  max-width: 320px;
   background-color: white;
   border-radius: 3px;
   display: flex;
@@ -38,7 +45,8 @@ header {
   justify-content: center;
   align-items: center;
   gap: 15px;
-  margin: 30px auto;
+  margin-top: 20px;
+  position: relative;
 }
 
 .hamburger-menu li {
