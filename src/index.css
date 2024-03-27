@@ -38,10 +38,11 @@ body {
   font-weight: 400;
   min-height: 100vh;
   margin: 0;
-  background-color: var(--bgColor);
+  background-color: white;
   color: var(--textColor);
   min-width: 375px;
   line-height: 1.1;
+  position: relative;
 }
 
 ul {
